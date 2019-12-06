@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #156318;
+	padding: 2px 0;
+	
+}
+.wrapper{
+    overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 6%;
+	float: left;
+	margin-top: 2px; 
+
+}
+.logo img{
+    width: 100%;
+
+}
+.menu{
+    width: 70%;
+    float: right;
+    margin-top: 20px  
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+    display: block;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu ul li a:hover{
+	color:#EC1C23;
+}

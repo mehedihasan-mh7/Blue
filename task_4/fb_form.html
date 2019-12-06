@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+	<link rel="stylesheet"  href="../css/fb_form.css">
+</head>
+<body>
+   <div class="wrapper">
+   	<form action="#" method="get" enctype="multipart/form-data">
+   		<div class="h1">Create a new account</div>
+   		<div class="p">It's quick and easy.</div>
+   		<input type="text" placeholder="First name" name="first_name" id="first_name" class="f_name">
+
+   		<input type="text" placeholder="Surname" name="surname" id="surname" class="s_name"><br>
+
+   		<input type="email" placeholder="Mobile number or email adders" name="email" id="email" class="email">
+
+   		<input type="password" placeholder="New password" name="password" id="password" class="password"><br><br>
+     <!--Dropdown start-->
+     <div class="birth">
+   		<label for="birthday">Birthday</lebel>
+   	 </div> 
+   	 <div id="dropdown">   
+   	     <select aria-label="Day" id="dropdown" name="dropdown">
+         <option value="day">Day</option>
+         </select>
+         <select aria-label="Month" id="dropdown" name="dropdown">
+         <option value="month">Month</option>
+         </select>
+         <select aria-label="Year" id="dropdown" name="dropdown">
+         <option value="year">Year</option>
+        </select></div><br>
+     <!--Dropdown end-->
+     <!--Radio btn start-->
+         <div class="gen">
+          <label for="gender">Gender</lebel><br>
+          </div>
+      <div id="gender">
+      	<input type="radio" value="Male" name="gender"id="gender" class="gender"><span>Male</span>
+       	<input type="radio" value="female" name="gender"id="gender" class="gender"><span>Female</span>
+       	<input type="radio" value="Custom" name="gender"id="gender" class="gender"><span>Custom</span>
+      </div><br>
+     <!--Radio btn end-->
+        <p style="font-size: 15px">By clicking Sign Up, you agree to our <a href="#" target="_blank">Terms,</a><a href="#" target="_blank"> Data Policy</a> &nbsp; and &nbsp; <a href="#" target="_blank">Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time</p><br>
+      <div class="btn">  
+       <button type="submit">Sign up</button>
+      </div>
+   	</form>
+   	
+    </div>
+
+       <a href="../index.html" style="font-size: 20px; text-decoration: none;text-align: center;">HOME</a>
+</body>
+</html>

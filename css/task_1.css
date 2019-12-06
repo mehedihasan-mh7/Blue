@@ -1,0 +1,57 @@
+body{
+   background-color: lightblue;
+   background-image: url('image/FB.jpg');
+	
+}
+.selector{
+    text-align: center;
+    color: red;
+}
+p.selector{
+	text-align: center;
+	font-size: 200%;
+	color: white;
+}
+div h2 {
+	background: blue;
+}
+div+h2{
+	background: aqua;
+}
+.mouse:hover{
+
+	text-align: center;
+	background-color: green;
+	color: white;
+	padding: 25px; 
+}
+[class^="top"]{
+	background-color: yellow;
+}
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid red;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px dotted black;
+}
